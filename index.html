@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login & To-Do List</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <img src="" alt="">
+
+<div id="loginContainer" class="container">
+  <h2 id="formTitle">Login</h2>
+  <div class="input-field">
+    <label for="username">Username</label>
+    <input type="text" id="username" required>
+  </div>
+  <div class="input-field">
+    <label for="password">Password</label>
+    <input type="password" id="password" required>
+  </div>
+  <button id="authButton" class="button">Sign In</button>
+  <p id="switchText" class="switch">Create a new account</p>
+</div>
+
+<div id="toDoList" class="container">
+  <h2>To-Do List</h2>
+  <div class="input-field">
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button id="addTaskButton" class="button" style="margin-top: 10px;">Add Task</button>
+  </div>
+  <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
