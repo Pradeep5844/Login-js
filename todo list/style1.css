@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background: url('back.jpeg') no-repeat center center/cover;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+  }
+  .container {
+    width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15); /* semi-transparent background */
+    padding: 40px 30px;
+    border-radius: 10px;
+    position: relative;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    backdrop-filter: blur(10px); /* blur effect behind the login box */
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .input-field input{
+    background: transparent;
+  }
+  .input-field {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .input-field input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .button:hover {
+    background-color: #45a049;
+  }
+  .switch {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+  }
+  #toDoList {
+    display: none;
+  }
+  #toDoList ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  #toDoList li {
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .remove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
